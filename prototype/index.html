@@ -1,1 +1,181 @@
-<h1>Project 1</h1>
+<!DOCTYPE html>
+<html lang="en">
+<!-- Declares Language -->
+
+<head>
+  <title>Prototype HTML Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Short keyowrd rich narrative of the site's purpose" />
+  <meta name="author" content="Thomas Wallace" />
+  <link href="path/to/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <header class="primary">
+      <h1>Prototype HTML Document Example</h1>
+    </header>
+    <section id="content">
+      <h2>Properly Marking up an HTML Document</h2>
+
+      <form action="processing-script.php" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="custname">Name:</label>
+          <input type="text" id="custname" name="custname" />
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea>
+
+          <label for="favcol">Favorite Color:</label>
+          <select id="favcol" name="favcol">
+            <option value="R">Red</option>
+            <option value="B">Blue</option>
+            <option value="G">Green</option>
+            <option selected>---</option>
+          </select>
+
+          <!-- Data List Example -->
+
+          <label for="browser">Choose or add a browser:</label>
+          <input list="browsers" id="browser" name="browser">
+
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+          </datalist>
+
+          <input type="submit" value="Take me to your leader" />
+
+        </fieldset>
+      </form>
+
+      <p>This is a paragraph. <em>Often times</em> designers will use <q>Dummy Text</q> as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, <strong>consectetuer adipiscing elit</strong>. Praesent volutpat velit sed massa. In <del>volutpat eros sagittis</del> ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, <sub>lorem</sub>. Quisque <sup>feugiat</sup> arcu eget sapien.<sup><a href="#ref-1">1</a></sup></p>
+
+      <hr />
+
+      <p> Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim.</p>
+      <address>
+        Thomas Wallace<br />
+        123 Street Dr.<br />
+        Little Rock, AR, 72204
+      </address>
+      <p> Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+      <table border="1">
+        <caption>Groceries</caption>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Cost</th>
+        </tr>
+        <tr>
+          <td>Cola</td>
+          <td>12</td>
+          <td>5.99</td>
+        </tr>
+        <tr>
+          <td>Cola</td>
+          <td>12</td>
+          <td>5.99</td>
+        </tr>
+        <tr>
+          <td>Cola</td>
+          <td>12</td>
+          <td>5.99</td>
+        </tr>
+      </table>
+
+      <h3 id="test">This is a Subsection of the Primary Content</h3>
+
+      <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc.</p>
+      <p> Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+      <figure>
+        <img src="https://placehold.co/300x200" alt="UA Little Rock Logo" />
+        <figcaption>Caption Goes Here</figcaption>
+      </figure>
+
+      <ol>
+        <li>Instruction</li>
+        <li>Instruction
+          <ol>
+            <li>Ramen</li>
+            <li>Cheetos</li>
+            <li>Jolt</li>
+            <li>Bread</li>
+          </ol>
+        </li>
+        <li>Instruction</li>
+      </ol>
+
+      <ul>
+        <li>Ramen</li>
+        <li>Cheetos</li>
+        <li>Jolt</li>
+        <li>Bread</li>
+      </ul>
+
+      <dl>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dd>Description 3</dd>
+      </dl>
+
+      <h4>This is a Subsection of Subsection I</h4>
+
+      <blockquote>Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+
+      <h3>This is a Subsection of the Primary Content</h3>
+
+      <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor.</p>
+
+      <p> Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui.</p>
+      <p> Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+    </section>
+    <section id="blog">
+      <h2>Blog</h2>
+      <article class="post">
+        <header>Post Header</header>
+        <p>Content Goes Here Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti aperiam architecto labore inventore ipsam quae atque a eaque? Provident dolorem, soluta adipisci, voluptatem asperiores rem earum ratione sit, vel delectus atque praesentium? Numquam eligendi fugit, modi vitae, nihil unde expedita in veritatis nulla, aliquid ducimus eos rerum! Laboriosam, ut?</p>
+        <footer>Footer Goes Here</footer>
+      </article>
+      <article class="post">
+        <header>Post Header</header>
+        <p>Content Goes Here Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti aperiam architecto labore inventore ipsam quae atque a eaque? Provident dolorem, soluta adipisci, voluptatem asperiores rem earum ratione sit, vel delectus atque praesentium? Numquam eligendi fugit, modi vitae, nihil unde expedita in veritatis nulla, aliquid ducimus eos rerum! Laboriosam, ut?</p>
+        <footer>Footer Goes Here</footer>
+      </article>
+      <article class="post">
+        <header>Post Header</header>
+        <p>Content Goes Here Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti aperiam architecto labore inventore ipsam quae atque a eaque? Provident dolorem, soluta adipisci, voluptatem asperiores rem earum ratione sit, vel delectus atque praesentium? Numquam eligendi fugit, modi vitae, nihil unde expedita in veritatis nulla, aliquid ducimus eos rerum! Laboriosam, ut?</p>
+        <footer>Footer Goes Here</footer>
+      </article>
+    </section>
+    <nav class="primary">
+      <ul>
+        <li><a href="photo.jpg">Relative</a></li>
+        <li><a href="https://ualr.edu" target="_blank">Absolute Links</a></li>
+        <li><a href="https://ualr.edu/#footer" target="_blank">Anchor Link</a></li>
+        <li><a href="mailto:mail@ualr.edu">Email</a></li>
+      </ul>
+    </nav>
+    <footer class="primary">
+      <p>&copy; 2025 Thomas Wallace | <a href="#top">Back to Top</a></p>
+      <h6>References</h6>
+      <p id="ref-1">Reference 1</p>
+    </footer>
+  </main>
+</body>
+
+</html>
