@@ -12,6 +12,7 @@ solely on JavaScript or cutting-edge browser features.
 From a modern web-development perspective where people access sites on everything from various
 devices and internet connections progressive enhancement seems to be the responsibleway to build.
 It respects different user contexts, but still allows modern users to benefit.
-I read another article on the topic, this one from MoldStud: https://moldstud.com/articles/p-embracing-progressive-enhancement-in-responsive-web-design-boost-user-experience-and-accessibility?utm_source=chatgpt.com.
+I read another article on the topic, this one from MoldStud:
+https://moldstud.com/articles/p-embracing-progressive-enhancement-in-responsive-web-design-boost-user-experience-and-accessibility
 It shows how content-first HTML, layered CSS, and conditional JavaScript mkae websites that stay
 usable on older browsers/devices while still offering modern experiences on modern platforms
