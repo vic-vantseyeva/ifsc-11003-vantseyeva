@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <header class="container header" role="banner" aria-label="Site header">
     <div class="brand">
       <img src="images/hyena-pack.jpg" alt="Two hyenas by a cave/burrow." width="128" height="128" />
@@ -19,11 +20,12 @@
       </div>
     </div>
 
-    <nav role="navigation" aria-label="Main navigation">
-      <ul class="nav-list" id="main-nav">
+    <nav>
+      <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">Evolution Timeline</a></li>
+        <li><a href="history.html" aria-current="page">Evolution Timeline</a></li>
         <li><a href="faq.html">FAQ</a></li>
+        <li><a href="behavior.html">Behavior</a></li>
       </ul>
     </nav>
   </header>
